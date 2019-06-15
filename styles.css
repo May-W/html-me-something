@@ -16,7 +16,7 @@ header {
 	text-align: center;
 	background-color: #ffeeee;
 	padding: 2%;
-	max-width: 30%;
+	max-width: 45%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 3%;
@@ -36,6 +36,7 @@ footer {
 .nav {
 	text-align: center;
 	list-style-type: none;
+	padding-left: 0px;
 }
 
 .nav li {
@@ -46,7 +47,6 @@ footer {
 }
 
 figure {
-	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 31%;
@@ -84,4 +84,9 @@ a:visited {
 a:active {
 	text-decoration: none;
 	color: darkblue;
+}
+
+.catrow {
+	display: flex;
+	justify-content: space-evenly;
 }
