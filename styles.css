@@ -85,3 +85,8 @@ a:active {
 	text-decoration: none;
 	color: darkblue;
 }
+
+.catrow {
+	display: flex;
+	justify-content: space-evenly;
+}
